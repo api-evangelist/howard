@@ -1,7 +1,22 @@
 aid: howard
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/howard.png
 name: Howard
-description: Howard is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Howard was the world's first flex-use real estate platform, co-founded by Michael Jaindl
+  (CEO) and Derek Lee, aiming to bring flexibility to commercial real estate. It was an early-stage
+  (seed) company backed by Bloomberg Beta out of its 2016 fund. The company has since permanently closed
+  and operates no public developer surface, API, documentation, or live host. This profile is retained in
+  the API Evangelist network as a Bloomberg Beta portfolio record and is not an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/howard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +24,32 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: closed
+x-is-api-provider: false
+x-identity-source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
+x-founders:
+- Michael Jaindl
+- Derek Lee
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Commercial Real Estate
+- Flexible Workspace
+- Startup
+- Bloomberg Beta Portfolio
+- Closed
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

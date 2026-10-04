@@ -35,7 +35,7 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: closed
+x-status: defunct
 x-is-api-provider: false
 x-identity-source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
 x-founders:
@@ -46,22 +46,23 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Commercial Real Estate
 - Flexible Workspace
-- Startups
 - Bloomberg Beta Portfolio
 - Closed
+- Defunct
 tags_raw:
 - Company
 - Real Estate
 - PropTech
 - Commercial Real Estate
 - Flexible Workspace
-- Startup
 - Bloomberg Beta Portfolio
 - Closed
+- Defunct
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -73,3 +74,7 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-tags-removed:
+- Startups
+x-company-stage: venture-backed
+x-company-stage-evidence: "own tags: Startup, Bloomberg Beta Portfolio"
